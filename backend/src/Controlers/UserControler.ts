@@ -3,7 +3,7 @@ import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
 import { Request,Response } from 'express'
 import { Types } from 'mongoose'
-import { Iuser } from '../src/typesMar/InterMar'
+import { Iuser } from '../typesMar/InterMar'
 
 ///fonction tuken
 const getUserToken=(_id:string|Types.ObjectId)=>{

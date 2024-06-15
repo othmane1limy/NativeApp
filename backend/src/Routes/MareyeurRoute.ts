@@ -1,6 +1,6 @@
 import express,{ Express ,RequestHandler} from "express";
 import {Create,searchMar, Delete, Getall, Getone,  Update } from "../Controlers/MareyeurControler";
-import { authenticationMiddleware } from "../src/middleware/userMid";
+import { authenticationMiddleware } from "../middleware/userMid";
 
 
 const MarRoute=express.Router()

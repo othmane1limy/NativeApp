@@ -1,8 +1,8 @@
 import express,{ Express,Response,Request } from "express"
 import dotenv from "dotenv"
-import MarRoute from "../Routes/MareyeurRoute"
+import MarRoute from "../src/Routes/MareyeurRoute"
 import ConnectDb from "./ConnectDb"
-import userRouter from "../Routes/userRouter"
+import userRouter from "../src/Routes/userRouter"
 import cors from "cors"
 
 const corsOption={
